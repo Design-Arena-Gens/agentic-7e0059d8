@@ -29,7 +29,8 @@ lerna-debug.log*
 pnpm-debug.log*
 
 # Package manager lock files
-package-lock.json
+# Allow package-lock to be committed for deterministic builds
+!frontend/package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .pnpm-store/
